@@ -1,0 +1,18 @@
+.container.testimonials__container {
+  width: 40%;
+  padding-bottom: 4rem;
+}
+
+/* ==================== MEDIA QUERIES (MEDIUM) ==================== */
+@media screen and (max-width: 1024px) {
+  .container.testimonials__container {
+    width: 60%;
+  }
+}
+
+/* ==================== MEDIA QUERIES (SMALL) ==================== */
+@media screen and (max-width: 600px) {
+  .container.testimonials__container {
+    width: var(--container-width-ms);
+  }
+}
